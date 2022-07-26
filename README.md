@@ -10,3 +10,8 @@
       $ ssh -p 5899 user@localhost
       ```
   3. $$$ hax $$$
+
+
+  ## Config
+  - to edit the welcome message shown on login (eg: to show instructions again) edit the `welcome_message.txt` file
+  - edit the flag in `flag.txt`
