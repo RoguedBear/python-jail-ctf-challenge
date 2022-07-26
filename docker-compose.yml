@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  ctf-test:
+    container_name: ctf-test
+    build: .
+    image: ssh-jail-test
+    ports:
+      - "5959:22"  
